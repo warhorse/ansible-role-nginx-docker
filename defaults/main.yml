@@ -3,9 +3,9 @@ nginx_hostname: "nginx"
 nginx_container_name: "nginx"
 nginx_docker_version: "latest"
 
-nginx_dns_plugin: 
+nginx_dns_plugin: 'digitalocean'
 nginx_profile: 'phish'
-nginx_domain_name:
+nginx_domain_name: 'example.com'
 nginx_config_location: "nginx.conf.j2"
 
 nginx_docker_labels: {}

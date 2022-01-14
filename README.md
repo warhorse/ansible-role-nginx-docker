@@ -17,28 +17,28 @@ This role is part of the Warhorse Automation Framework. This role can be used wi
 Docker Image
 -------------
 
-[docker-nginx](https://github.com/nginx/nginx)
+[nginx](https://hub.docker.com/_/nginx/)
 
 Role Variables
 --------------
 
 A list of all the variables can be found in ./defaults/main.yml.
 
-`neo4j_dir` - Neo4j container directory 
+`nginx_dir` - Nginx container directory 
 
-`neo4j_docker_version` - Docker image version
+`nginx_docker_version` - Nginx image version
 
-`neo4j_ports` - Neo4j container ports
+`nginx_ports` - Nginx container ports
 
-`neo4j_hostname` - Neo4j container hostname
+`nginx_hostname` - Nginx container hostname
 
-`neo4j_container_name` - neo4j container name 
+`nginx_container_name` - Nginx container name 
 
-`neo4j_username` - Neo4j username
+`nginx_docker_image` - Neo4j username
 
 `neo4j_password` - Neo4j password 
 
-`neo4j_docker_network` neo4j container docker network
+`nginx_docker_network` neo4j container docker network
 
 
 Dependencies
@@ -52,7 +52,7 @@ Install
 ------------
 
 ```shell
-ansible-galaxy install warhorse.neo4j_docker
+ansible-galaxy install warhorse.nginx_docker
 ```
 
 Example Playbook
@@ -61,7 +61,7 @@ Example Playbook
 ```yaml
 - hosts: servers
   roles:
-      - { role: warhorse.neo4j_docker }
+      - { role: warhorse.nginx_docker }
 ```
 
 Example Vars
