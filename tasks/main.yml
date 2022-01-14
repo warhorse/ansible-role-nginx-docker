@@ -9,13 +9,13 @@
   with_items:
     - setup
 
-- name: SSL
-  include_tasks: "{{ item }}.yml"
-  with_items:
-    - swag
-  when: nginx_dns_plugin defined and nginx_domain_name defined
-
 - name: Create Containers
   include_tasks: "{{ item }}.yml"
   with_items:
     - nginx
+
+- name: SSL
+  include_tasks: "{{ item }}.yml"
+  with_items:
+    - swag
+  when: nginx_dns_plugin is defined and nginx_domain_name is defined

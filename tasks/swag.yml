@@ -2,7 +2,7 @@
 - name: Copy {{ nginx_dns_plugin }} config
   template:
     src: "{{ nginx_dns_plugin }}.ini.j2"
-    dest: "{{ nginx_dns_plugin }}/certs/dns-conf/{{ nginx_dns_plugin }}.ini"
+    dest: "{{ nginx_dir }}/certs/dns-conf/{{ nginx_dns_plugin }}.ini"
     mode: 777
 
 - name: swag (letsencrypt) container

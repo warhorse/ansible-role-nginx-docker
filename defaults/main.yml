@@ -1,15 +1,15 @@
 ---
-nginx_hostname: "neo4j"
-nginx_container_name: "neo4j"
+nginx_hostname: "nginx"
+nginx_container_name: "nginx"
 nginx_docker_version: "latest"
 
-nginx_dns_plugin: ""
+nginx_dns_plugin: 
 nginx_profile: 'phish'
 nginx_domain_name:
 nginx_config_location: "nginx.conf.j2"
 
 nginx_docker_labels: {}
-nginx_docker_image: "nginx:{{ neo4j_docker_version }}"
+nginx_docker_image: "nginx:{{ nginx_docker_version }}"
 nginx_docker_network: "nginx"
 nginx_network_ipam_temp: "{{ nginx_network_ipam | default({}) }}"
 nginx_network_ipam_subnet: "{{
@@ -31,4 +31,4 @@ nginx_ports:
   - "80:80"
   - "443:443"
 
-digitalocean_token:
+nginx_digitalocean_token:
