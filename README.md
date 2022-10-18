@@ -1,9 +1,9 @@
 Ansible Nginx (Docker)
 =========
 [![CI](https://github.com/warhorse/ansible-role-nginx-docker/workflows/CI/badge.svg?event=push)](https://github.com/warhorse/ansible-role-nginx-docker/actions?query=workflow%3ACI)
-[![warhorse.nginx_docker](https://img.shields.io/ansible/role/55904)](https://galaxy.ansible.com/warhorse/nginx_docker)
-[![warhorse.nginx_docker](https://img.shields.io/ansible/quality/55904)](https://galaxy.ansible.com/warhorse/nginx_docker)
-[![warhorse.nginx_docker](https://img.shields.io/ansible/role/d/55904)](https://galaxy.ansible.com/warhorse/nginx_docker)
+[![warhorse.nginx_docker](https://img.shields.io/ansible/role/57577)](https://galaxy.ansible.com/warhorse/nginx_docker)
+[![warhorse.nginx_docker](https://img.shields.io/ansible/quality/57577)](https://galaxy.ansible.com/warhorse/nginx_docker)
+[![warhorse.nginx_docker](https://img.shields.io/ansible/role/d/57577)](https://galaxy.ansible.com/warhorse/nginx_docker)
 ![License](https://img.shields.io/github/license/warhorse/ansible-role-nginx-docker)
 ![Commit](https://img.shields.io/github/last-commit/warhorse/ansible-role-nginx-docker)
 
