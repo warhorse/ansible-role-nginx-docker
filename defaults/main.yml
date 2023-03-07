@@ -30,5 +30,4 @@ nginx_data_dir: '/data'
 nginx_ports:
   - "80:80"
   - "443:443"
-
 nginx_digitalocean_token:

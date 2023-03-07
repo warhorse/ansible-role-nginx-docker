@@ -12,6 +12,7 @@
     state: started
     hostname: swag
     restart_policy: unless-stopped
+    ports: []
     env:
       URL: "{{ nginx_domain_name }}"
       SUBDOMAINS: "wildcard"
